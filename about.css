@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.headr{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.float{
+    float: left;
+}
+.logo{
+    width: 40%;
+    padding:15px;
+    margin-left:100px;
+}
+.clearfix{
+    display: table;
+    clear: both;
+}
+nav{
+    width: 50%;
+    text-align:right;
+    padding:20px;
+}
+.headr ul li{
+    display: inline-block;
+    padding: 5px 12px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headr ul li:last-child{
+    margin-right: 40px;
+}
+.bg{
+    background: url(assets/beans.webp) center no-repeat;
+    background-size: cover;
+}
+.dark{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.headr ul li:hover{
+    display: inline-block;
+    padding: 5px 12px;
+    color: rgb(197, 132, 59);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.foot{
+    background-color: rgb(52, 27, 9);
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.foot input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 0px 5px;
+}
+.foot button{
+    padding: 3px 20px;
+    border: none;
+    background-color: rgb(197, 132, 59);
+    color: #ffffff;
+}
+.foot h3{
+    color: rgb(197, 132, 59);
+    padding-bottom: 20px;
+}
+
+.aboutus h1{
+    color: rgb(52, 27, 9);
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(52, 27, 9);
+}
+.aboutus1 h2{
+    color: rgb(197, 132, 59);
+    padding-bottom: 20px;
+}
+.aboutus1 img{
+    border-radius: 10px;
+}
+.line{
+    width:60%;
+    height: 2px;
+    background-color: rgb(88, 54, 16);
+}
+.about2{
+    background-color: rgb(242, 235, 192);
+    width: 100%;
+    height:55vh;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 50px;
+}
+.about2 h2{
+    color: rgb(88, 54, 16);
+    padding-bottom: 10px;
+    text-align: center;
+}
+.about2 p{
+    text-align:center;
+}
+.about2 ul li{
+    text-align: left;
+    color: rgb(35, 35, 35);
+    line-height: 35px;
+}
+.quality{
+    margin-left: 60px;
+}
+.vision{
+    margin-right: 40px;
+}
+.aboutcards{
+    background-color:#8a6a43;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.menu{
+    margin-bottom: 80px;
+}
+.menu h1{
+    color: rgb(68, 39, 18);
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(69, 38, 16);
+}
+.menu h2{
+    background-color: rgb(165, 101, 55);
+    color: white;
+    margin-bottom: 20px;
+}
+.menu img{
+    width: 100%;
+    height: 150px;
+}
+.menu button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(197, 132, 59);
+    color: white;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service{
+    margin:40px 0px;
+}
+.service h1{
+    color: rgb(68, 39, 18);
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(68, 39, 18);
+}
+.service img{
+    width: 100%;
+    height: 190px;
+}
+
+.bg2{
+    background: url(assets/beans.webp) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin:30px 0px;
+}
+.dark2{
+    background-color: rgba(41, 22, 3, 0.7);
+    width: 100%;
+    height: 50vh;
+    color: white;
+    text-align: justify;
+}
+.bg2content{
+    padding-top: 50px;
+}
+.bg2content h1{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.bg2content h3{
+    font-size: 36px;
+    color: rgb(246, 223, 196);
+    text-align: center;
+}
+.bg2content p{
+    text-align: center;
+}
+.bg2content input{
+    width: 25%;
+    height: 45px;
+    border-radius: 0px;
+    border: none;
+    padding:0px 8px;
+}
+.bg2content button{
+    padding: 10px 20px;
+    background-color: rgb(197, 132, 59);
+    color: white;
+    border-radius: 0px;
+    border: none;
+}
+.flex{
+    display: flex;
+    align-items: justify;
+    justify-content: center;
+}
+.contact{
+    margin:50px 0px;
+    text-align: center;
+}
+

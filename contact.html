@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="C:\Users\mohammed sana\OneDrive\Desktop\CafeWebsite\css\bootstrap.min.css">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="validate.js"></script>
+</head>
+<body>
+    <header class="headr bg">
+        <section class="clearfix dark">
+            <div class="float logo">
+                <a href="index.html">
+                <img width="150px" src="assets/logobgremove.png" alt="">
+                </a>
+            </div>
+            <nav class="float">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="menu.html"><li>Menu</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </nav>
+            </section>
+    </header>
+
+
+    <section class="container-fluid contact row p-5">
+        <div class="col-6">
+            <img width="100%" height="100%" src="assets/amb3.jpg" alt="">
+        </div>
+        <div class="col-6">
+            <form name="booking" action="" onsubmit="return validate()">
+                <h2>Book a table</h2>
+                <input type="text" name="username" id="username" placeholder="Enter name">
+                <span id="usernote"></span>
+                <input type="email" name="email" id="email" placeholder="Enter Email Id">
+                <span id="mailnote"></span>
+                <input type="date" name="date" id="date" placeholder="Enter date">
+                <span id="datenote"></span>
+                <select name="persons" id="persons">
+                    <option value="" hidden>Persons</option>
+                    <option value="uiux">1</option>
+                    <option value="uiux">2</option>
+                    <option value="ui">3</option>
+                    <option value="mern">4</option>
+                    <option value="mern">5</option>
+                    <option value="mern">6</option>  
+                </select>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Any Specifications?"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="map">
+        <h1>Visit Us</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.0225797641833!2d82.23449167461824!3d16.973439614599265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38286b25c48623%3A0x4fccfa36e1c55f6a!2sCaf%C3%A9%20Coffee%20Day!5e0!3m2!1sen!2sin!4v1700473650046!5m2!1sen!2sin"
+         width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+
+    <footer class="container-fluid foot">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h3>GET IN TOUCH</h3>
+                <P><i class="bi bi-geo-alt"></i> 20-11,Banugudi,Kakinada</P>
+                <p><i class="bi bi-telephone"></i> 9876543210</p>
+                <p><i class="bi bi-envelope"></i> brewhouse@gmail.com</p>
+            </div>
+            <div class="col-3">
+                <h3>FOLLOW US</h3>
+                <P class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusamus fugiat architecto, 
+                    mollitia, blanditiis,  Voluptas aliquid facilis ipsam!</P>
+                <h2><i class="bi bi-instagram"></i>&nbsp; <i class="bi bi-facebook"></i>&nbsp; <i class="bi bi-twitter"></i>&nbsp; <i class="bi bi-linkedin"></i></h2>
+            </div>
+            <div class="col-2">
+                <h3>OPEN HOURS</h3>
+                <P>Monday - Friday</P>
+                <p>8:00 AM - 8:00 PM</p>
+                <br>
+                <p>Sarurday - Sunday</p>
+                <p>2:00 PM - 8:00 PM</p>
+            </div>
+            <div class="col-3">
+                <h3>NEWSLETTER</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti nobis quae hic error,
+                     delectus reiciendis placeat, iure quo repudiandae non esse.</P>
+                <form>
+                    <input type="email" placeholder="Email address" required>
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <hr>
+        <p class="text-center">&copy; Designed by SanaMohammed</p>
+    </footer>
+    <script src="C:\Users\mohammed sana\OneDrive\Desktop\CafeWebsite\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>

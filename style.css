@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.head{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.float{
+    float: left;
+}
+.logo{
+    width: 40%;
+    padding:15px;
+    margin-left:100px;
+}
+.clearfix{
+    display: table;
+    clear: both;
+}
+nav{
+    width: 50%;
+    text-align:right;
+    padding:20px;
+}
+.head ul li{
+    display: inline-block;
+    padding: 5px 12px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head ul li:last-child{
+    margin-right: 40px;
+}
+.bg{
+    background: url(assets/bg1.jpg) center no-repeat;
+    background-size: cover;
+}
+.dark{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.head ul li:hover{
+    display: inline-block;
+    padding: 5px 12px;
+    color: rgb(197, 132, 59);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+}
+.bgcontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 0px;
+}
+.bgcontent h1{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 14px;
+    color: #ffffff;
+}
+.bgcontent p{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.bgcontent  button{
+    padding: 8px 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 132, 59);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.aboutus h1{
+    color: rgb(88, 54, 16);
+}
+.aboutus p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.aboutus button{
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(230, 139, 35);
+    color: white;
+    border-radius: 10px;
+}
+.aboutus img{
+    border-radius: 10px;
+}
+.about2{
+    background-color: rgb(242, 235, 192);
+    width: 100%;
+    height:55vh;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 50px;
+}
+.about2 h2{
+    color: rgb(88, 54, 16);
+    padding-bottom: 10px;
+    text-align: center;
+}
+.about2 p{
+    text-align:center;
+}
+.about2 ul li{
+    text-align: left;
+    color: rgb(35, 35, 35);
+    line-height: 35px;
+}
+.quality{
+    margin-left: 60px;
+}
+.vision{
+    margin-right: 40px;
+}
+.services{
+    margin-top: 100px;
+    padding: 15px;
+}
+.services h1{
+    color: rgb(98, 64, 26);
+    padding-bottom: 5px;
+    margin-left: 30px;
+}
+.services button{
+    text-align:right;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(230, 139, 35);
+    color: white;
+    margin-left: 80px;
+}
+.services img{
+    width: 100%;
+    height: 200px;
+}
+.card{
+   margin: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.line{
+    width:60%;
+    height: 2px;
+    background-color: rgb(88, 54, 16);
+}
+.animate__zoomIn{
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+.bg2{
+    background: url(assets/beans.webp) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin:30px 0px;
+}
+.dark2{
+    background-color: rgba(41, 22, 3, 0.7);
+    width: 100%;
+    height: 50vh;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-align: justify;
+}
+.bg2content{
+    padding-top: 50px;
+}
+.bg2content h1{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.bg2content h3{
+    font-size: 36px;
+    color: rgb(246, 223, 196);
+    text-align: center;
+}
+.bg2content p{
+    text-align: center;
+}
+.bg2content input{
+    width: 25%;
+    height: 50px;
+    border-radius: 0px;
+    border: none;
+    padding:0px 8px;
+}
+.bg2content button{
+    padding: 10px 20px;
+    background-color: rgb(197, 132, 59);
+    color: white;
+    border-radius: 0px;
+    border: none;
+}
+.homemenu{
+    width: 100%;
+    height: 80vh;
+}
+.homemenu img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(144, 88, 24);
+    margin-left: 40px;
+}
+.homemenu h1{
+    color: rgb(85, 56, 22);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.homemenu h5{
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.homemenu h4{
+    color: rgb(230, 139, 35);
+    text-align:left;
+}
+.homemenu p{
+    font-size: 14px;
+    color: rgb(45, 45, 45);
+    text-align:left;
+    padding-right: 24px;
+}
+.homemenu button{
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(197, 132, 59);
+    border: none;
+    border-radius: 10px;
+}
+.gallery{
+    margin: 100px 0px;
+    width:100%;
+    height: 100vh;
+    padding:20px 40px;
+    background-color: rgb(52, 27, 9);
+}
+.gallery h1{
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.gallery img{
+    border-radius: 10px;
+}
+.bgclr{
+    background-color: rgba(41, 22, 3, 0.7);
+    padding: 10px;
+    width: 100% !important;
+    height: auto;
+}
+.aboutcards{
+    background-color:#8a6a43;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.testimonial{
+    width: 85%;
+    height: auto;
+    padding: 20px;
+}
+.testimonial h1{
+    color: rgb(52, 27, 9);
+    border-bottom: 2px solid rgb(52, 27, 9);
+    padding-bottom: 10px;
+}
+.testimonial img{
+    width: 100%;
+    height: 300px;
+}
+.foot{
+    background-color: rgb(52, 27, 9);
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.foot input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 0px 5px;
+}
+.foot button{
+    padding: 3px 20px;
+    border: none;
+    background-color: rgb(197, 132, 59);
+    color: #ffffff;
+}
+.foot h3{
+    color: rgb(197, 132, 59);
+    padding-bottom: 10px;
+}
